@@ -1,12 +1,23 @@
 h1{
     font-size: 200%;
     font-weight: bold;
+    text-align: center;
 }
 h2{
     font-size: 160%;
     font-weight: bold;
+    text-align: center;
 }
 h3{
     font-size: 140%;
     font-weight: bold;
+    text-align: center;
+}
+
+#main_header{
+    width: auto;
+    margin: 0 auto;
+
+    height: 160px;
+    position: relative;
 }
