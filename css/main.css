@@ -187,8 +187,18 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* 화면 너비 0 ~ 767픽셀 */
+@media screen and (max-width: 767px) {
+}
+
+/* 화면 너비 768 ~ 959픽셀 */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* 화면 너비 960 ~ */
+@media screen and (min-width: 960px) {
+
 }
 
 @media print,
@@ -264,3 +274,16 @@ textarea {
   }
 }
 
+
+/* 폰트 */
+@font-face{
+  font-family: 'NanumSquareRoundR';
+  src : local('NanumSquareRoundR'),
+        url('/font/NanumSquareRoundR.ttf');
+}
+
+/* 메인 CSS */
+
+body{
+  padding-top : 70px;
+}
